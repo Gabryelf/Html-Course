@@ -101,3 +101,35 @@ width: 200px;
 background: #38b6ff;
 }
 ```
+
+## 7
+
+```css
+#menu1 ul li:hover ul{
+display: block;
+}
+```
+
+## 8
+
+```css
+#menu1 ul li ul li{
+float: none;
+width: 100%;
+}
+
+#menu1 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #ffffff;
+color: white;
+}
+
+#menu1 ul li ul li:first-child a{
+border-top: 0px;
+}
+```
