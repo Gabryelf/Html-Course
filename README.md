@@ -47,3 +47,15 @@ height: auto;
 list-style: none;
 }
 ```
+
+## 3
+
+```css
+#menu1 > ul::after{
+display: block;
+width: 100%;
+height: 0px;
+clear: both;
+content: " ";
+}
+```
