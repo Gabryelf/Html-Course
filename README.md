@@ -59,3 +59,45 @@ clear: both;
 content: " ";
 }
 ```
+
+## 4
+
+```css
+#menu1 ul li{
+position: relative;
+display: block;
+ float: left;
+width: auto;
+height: auto;
+}
+```
+
+## 5
+
+```css
+#menu1 ul li a{
+display: block;
+padding: 9px 25px 0px 25px;
+font-size: 14px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+height: 36px;
+box-sizing: border-box;
+color: white;
+}
+```
+
+## 6
+
+```css
+#menu1 ul li ul{
+position: absolute;
+top: 36px;
+left: 0px;
+display: none;
+width: 200px;
+background: #38b6ff;
+}
+```
