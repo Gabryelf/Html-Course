@@ -22,6 +22,8 @@
 
 # Styles NAV
 
+## 1
+
 ```css
 #menu1{
 position: relative;
@@ -29,5 +31,19 @@ display: block;
 width: 100%;
 height: auto;
 z-index: 10;
+}
+```
+
+## 2
+
+```css
+#menu1 ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
 }
 ```
