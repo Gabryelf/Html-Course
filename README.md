@@ -19,3 +19,15 @@
     </ul>
 </nav>
 ```
+
+# Styles NAV
+
+```css
+#menu1{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+```
