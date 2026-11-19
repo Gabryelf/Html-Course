@@ -62,3 +62,38 @@ a {
     height: 10vh;
 }
 
+.carousele{
+    margin: 10px;
+}
+
+.carousele div img{
+    width: 100%
+}
+
+.carousele {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 30px; /* чтобы стрелки не наезжали на края */
+}
+
+.carousele-element img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 8px; /* зазор между слайдами */
+}
+
+/* точки */
+.slick-dots li button::before {
+    font-size: 14px;
+    color: #888;
+}
+
+/* стрелки */
+.slick-prev, .slick-next {
+    width: 36px;
+    height: 36px;
+}
+.slick-prev { left: -12px; }
+.slick-next { right: -12px; }
+
